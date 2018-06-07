@@ -38,6 +38,6 @@ The maximum accuracy was obtained using:
 - Learning rate: 0.01
 - Decay of the learning rate: 0.99.
 
-The ensemble accuracy was $93.55\\%$. The raw data is __[here](https://raw.githubusercontent.com/carloshavier/hyperparams-bo/master/experiment-results/ex-7-6-18-01-small.txt)__.
+The ensemble accuracy was 93.55%. The raw data is __[here](https://raw.githubusercontent.com/carloshavier/hyperparams-bo/master/experiment-results/ex-7-6-18-01-small.txt)__.
 
-Augmenting the number of epochs, it was possible to attain an accuracy of $98.30\\%$ at $50$ epochs.
+Augmenting the number of epochs, it was possible to attain an accuracy of 98.30% at $50$ epochs.
