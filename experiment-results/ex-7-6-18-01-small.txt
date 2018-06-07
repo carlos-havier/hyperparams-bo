@@ -1,0 +1,47 @@
+
+                   Accuracy
+---------------------------------------------------------------------------------------------------------------------------------------------------
+ Step |   Time |      Value |   batch_size |    epochs |   learning_rate |   learning_rate_decay |   optimization_algorithm |   resnet_activation | 
+    1 | 45m13s |    0.93550 |       0.6272 |    1.7311 |          0.6609 |                0.4373 |                   1.0125 |              0.0000 | 
+    2 | 06m14s |    0.73280 |       0.0691 |    0.2116 |          0.3732 |                1.0191 |                   0.4774 |              0.0000 | 
+    3 | 07m14s |    0.76240 |       0.9203 |    0.1410 |          0.7586 |                0.7089 |                   0.9725 |              0.0000 | 
+Bayesian Optimization
+---------------------------------------------------------------------------------------------------------------------------------------------------
+ Step |   Time |      Value |   batch_size |    epochs |   learning_rate |   learning_rate_decay |   optimization_algorithm |   resnet_activation | 
+    4 | 91m33s |    0.76400 |       1.0000 |    2.0000 |          1.0000 |                3.0000 |                   2.0000 |              0.0000 | 
+    5 | 95m06s |    0.85170 |       0.0000 |    2.0000 |          0.0000 |                0.0000 |                   2.0000 |              0.0000 | 
+    6 | 90m35s |    0.75580 |       1.0000 |    2.0000 |          0.0000 |                0.0000 |                   0.0000 |              0.0000 | 
+
+1
+{'learning_rate': 0.01, 'batch_size': 32, 'epochs': 10, 'optimization_algorithm': <class 'keras.optimizers.Adam'>, 'resnet_activation': <class 'keras.layers.advanced_activations.PReLU'>, 'learning_rate_decay': 0.99}
+resnet_activation_index, optimization_algorithm_index, batch_size_index, learning_rate_index, learning_rate_decay_index, epochs_index
+['0.0', '1.012468341584687', '0.6272083402058838', '0.6609319633680611', '0.43732842900422786', '1.7311139679029197']
+
+2
+{'learning_rate': 0.01, 'batch_size': 32, 'epochs': 1, 'optimization_algorithm': <class 'keras.optimizers.Adagrad'>, 'resnet_activation': <class 'keras.layers.advanced_activations.PReLU'>, 'learning_rate_decay': 0.9}
+resnet_activation_index, optimization_algorithm_index, batch_size_index, learning_rate_index, learning_rate_decay_index, epochs_index
+['0.0', '0.47739422427728817', '0.06914508482583914', '0.37322874756570834', '1.019130496346233', '0.2115624704082122']
+
+3
+{'learning_rate': 0.01, 'batch_size': 32, 'epochs': 1, 'optimization_algorithm': <class 'keras.optimizers.Adagrad'>, 'resnet_activation': <class 'keras.layers.advanced_activations.PReLU'>, 'learning_rate_decay': 0.99}
+resnet_activation_index, optimization_algorithm_index, batch_size_index, learning_rate_index, learning_rate_decay_index, epochs_index
+['0.0', '0.972482393622909', '0.9202556234582971', '0.7586289035621024', '0.7088747476739067', '0.14097597494983916']
+
+4
+{'learning_rate': 0.001, 'batch_size': 64, 'epochs': 20, 'optimization_algorithm': <class 'keras.optimizers.Adamax'>, 'resnet_activation': <class 'keras.layers.advanced_activations.PReLU'>, 'learning_rate_decay': 0.8}
+resnet_activation_index, optimization_algorithm_index, batch_size_index, learning_rate_index, learning_rate_decay_index, epochs_index
+['0.0', '2.0', '1.0', '1.0', '3.0', '2.0']
+
+5
+{'learning_rate': 0.01, 'batch_size': 32, 'epochs': 20, 'optimization_algorithm': <class 'keras.optimizers.Adamax'>, 'resnet_activation': <class 'keras.layers.advanced_activations.PReLU'>, 'learning_rate_decay': 0.99}
+resnet_activation_index, optimization_algorithm_index, batch_size_index, learning_rate_index, learning_rate_decay_index, epochs_index
+['0.0', '2.0', '0.0', '0.0', '0.0', '2.0']
+
+6
+{'learning_rate': 0.01, 'batch_size': 64, 'epochs': 20, 'optimization_algorithm': <class 'keras.optimizers.Adagrad'>, 'resnet_activation': <class 'keras.layers.advanced_activations.PReLU'>, 'learning_rate_decay': 0.99}
+resnet_activation_index, optimization_algorithm_index, batch_size_index, learning_rate_index, learning_rate_decay_index, epochs_index
+['0.0', '0.0', '1.0', '0.0', '0.0', '2.0']
+
+
+
+
