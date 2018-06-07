@@ -1,17 +1,17 @@
 
-# A small exercise in Bayesian Optimization of Hyperparameters
+# An exercise in Bayesian Optimization of Hyperparameters of DCNNs
 
-This is an examle of BO (Bayesian Optimization) hyperparameter search to maximace the accuracy of DCNNs. Given the little time to run it and limited GPU computing resources, it is a toy example, but can be used with a broader search with different time constraints and access to GPUs. More details in the notebook __[hyper_mnist.ipynb]()__.
+This is an examle of BO (Bayesian Optimization) hyperparameter search to maximace the accuracy of DCNNs. Given the little time to run it and limited GPU computing resources, it is a toy example, but can be used with a broader search with different time constraints and access to GPUs. More details in the notebook __[hyper_mnist.ipynb](https://colab.research.google.com/github/carloshavier/hyperparams-bo/blob/master/hyper_mnist.ipynb)__.
 
 * BO search with different hyperparameters.
 * Using Keras and Tensorflow.
 * All network share hyperparameters (not optimum but faster search).
 * Model architecture from __[here](https://github.com/kkweon/mnist-competition)__. Ensemble of three networks, ResNet50 and two smaller variants of VGG.
-* Data augmentation (rotation, shear, resizing)
+* Data augmentation (rotation, projection, resizing).
 
 ## Notebook
 
-More info in the notebook __[hyper_mnist.ipynb]()__.
+More info in the notebook __[hyper_mnist.ipynb](https://colab.research.google.com/github/carloshavier/hyperparams-bo/blob/master/hyper_mnist.ipynb)__.
 
 ## Run
 
